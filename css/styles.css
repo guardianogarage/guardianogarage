@@ -1140,6 +1140,11 @@ footer {
         /* Usar svh para mejor soporte móvil */
     }
 
+    .scroll-indicator {
+        bottom: 5px;
+        z-index: 10;
+    }
+
     /* Footer en 1 columna */
     .footer-grid {
         grid-template-columns: 1fr;
